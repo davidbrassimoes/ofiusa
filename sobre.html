@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ofiusa coletivo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="icon" href="./imagens/ofiusa_colectivo/ofiusa_vectorizado_br2.png">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+</head>
+
+<body class="dark-mode">
+    <header>
+        <button onclick="myFunction()">
+            <span class="material-icons-outlined">
+                dark_mode
+            </span>
+        </button>
+
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+        <div class="container mt-3">
+            <a href="./index.html" class="link-logo"></a>
+        </div>
+    </header>
+    <article class="sobre">
+        <h1>sobre ofiusa</h1>
+        <div class="sobre-content mx-3">
+            <img src="./imagens/sobre/inocencia-perdida-2.jpg" class="img-sobre" alt="">
+            <div>
+                <p>A OFIUSA é um colectivo experimental a fazer de conta que é um colectivo
+                    experimental. Somos
+                    essencialmente
+                    fictícios. Aparte disso, caímos no clichê de ousarmos ser experimentais e transdisciplinares. Temos
+                    em
+                    desenvolvimento
+                    vários projectos ao nível de filme, som e texto como curtas,
+                    documentários,
+                    soundscapes, ensaios, poesia, teatro, entre outros.
+                </p>
+            </div>
+            <img src="./imagens/sobre/inocencia-perdida-3.jpg" class="img-sobre" alt="">
+            <div>
+                <p>Ao nível do filme, uma série de curtas-metragens experimentais em torno da
+                    apropriação e da subversão
+                    de
+                    arquivos, havendo um projecto para um documentário mais concreto. Ao nível do texto, a utilização da
+                    poesia
+                    nas suas diferentes dimensões, da colagem, do ensaio, do teatro para fazer considerações sobre a
+                    condição
+                    humana. </p>
+            </div>
+            <div>
+                <p>Ao nível do som, num continuar da apropriação e subversão através do sampling há também a
+                    síntese e
+                    exploração de novas paisagens sonoras. Por outro lado, a instalação real e digital também podem ser
+                    caminhos
+                    a serem desenvolvidos num futuro próximo.</p>
+            </div>
+            <img src="./imagens/sobre/trauma-6.jpg" alt="" class="img-sobre">
+            <div>
+                <p>Na galeria estão expostos trabalhos em várias fases de desenvolvimento, desde
+                    ideias mais
+                    iniciais a
+                    projectos em desenvolvimento. Esta página funcionará inicialmente, enquanto estiver a ser
+                    construída,
+                    como
+                    um arquivo de partilha para os colaboradores da OFIUSA.</p>
+            </div>
+            <img src="./imagens/sobre/histoire-de-la-folie.jpg" alt="" class="img-sobre">
+        </div>
+
+        <div class="container">
+            <h2>ofiusa</h2>
+        </div>
+        <div class="container mt-3">
+            <a href="./index.html" class="link-logo">
+            </a>
+        </div>
+    </article>
+    <div class="formul">
+        <form action="" id="formBig">
+            <h3>contacta-nos</h3>
+            <input type="email" id="mailName" name="email">
+            <label for="mailName">email</label>
+            <input type="text" id="mensagemText" name="mensagem">
+            <label for="mensagemText">mensagem</label>
+
+            <h4>colaborações</h4>
+            <input type="radio" name="tipo-ficheiro" id="filetype-audio">
+            <label for="filetype-audio">audio</label>
+            <input type="radio" name="tipo-ficheiro" id="filetype-imagem">
+            <label for="filetype-imagem">imagem</label>
+            <input type="radio" name="tipo-ficheiro" id="filetype-texto">
+            <label for="filetype-texto">texto</label>
+            <input type="radio" name="tipo-ficheiro" id="filetype-video">
+            <label for="filetype-video">video</label>
+            <input type="file" id="ficheiro">
+            <label for="ficheiro" class="upficheiro">escolher ficheiro</label>
+
+            <input type="text" id="uptitulo" name="titulo">
+            <label for="uptitulo">título</label>
+            <input type="text" id="upgenero" name="genero">
+            <label for="upgenero">género</label>
+            <input type="text" id="updescricao" name="descricao">
+            <label for="updescricao">descrição</label>
+
+            <input type="submit" class="contact contact-submit-main" value="enviar">
+            <input type="checkbox" name="news" id="newsCheck">
+            <label for="newsCheck" class="check">newsletter</label>
+
+        </form>
+    </div>
+    <footer class="container mt-5 mb-5">
+        <a href="https://www.flickr.com/photos/194593429@N07/" target="_blank"><img src="./imagens/icons/flickr.png"
+                alt="" class="social mx-2"></a>
+        <a href="https://soundcloud.com/david-simoes-197599910/tracks" target="_blank"><img
+                src="./imagens/icons/soundcloud-icon-1.png" alt="" class="social mx-2"></a>
+        <a href="https://www.youtube.com/channel/UCm3yFuuUPoslbxz0A7P3VyQ" target="_blank"><img
+                src="./imagens/icons/youtube-3.png" alt="" class="social mx-2"></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
